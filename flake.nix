@@ -32,6 +32,8 @@
 
                 git
                 gnumake
+                cmake
+                gdb
                 gcc
                 pkgsCross.riscv64.buildPackages.gcc
                 pkgsCross.riscv64-embedded.buildPackages.gcc
