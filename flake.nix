@@ -39,6 +39,9 @@
                 pkgsCross.riscv64-embedded.buildPackages.gcc
                 perl
 
+                # gf
+                # seer
+
                 cargo
                 rustup
 
