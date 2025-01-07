@@ -61,11 +61,13 @@
 
                 qemu
                 bochs
+
+                graalvm-ce
               ];
 
               programs.nix-ld = {
                 enable = true;
-                package = pkgs.nix-ld-rs; # only for NixOS 24.05
+                package = pkgs.nix-ld-rs;
               };
 
             }
