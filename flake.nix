@@ -15,6 +15,14 @@
           modules = [
             nixos-wsl.nixosModules.default
             {
+              programs.ssh = {
+                startAgent = true;
+                extraConfig = ''
+                  Host *
+                    AddKeysToAgent yes
+                '';
+              };
+
               system.stateVersion = "24.05";
               wsl.enable = true;
 
@@ -31,6 +39,8 @@
                 far2l
 
                 git
+                tig
+
                 gnumake
                 cmake
                 gdb
