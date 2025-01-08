@@ -1,4 +1,6 @@
-# Setup
+# How to make Windows bearable
+
+# Install Nix WSL
 
 1. [Nix WSL Installation](https://nix-community.github.io/NixOS-WSL/index.html)
 
@@ -20,3 +22,7 @@ Irrelevant but may be useful: https://aka.ms/GamingRepairTool
 [system-distro-env]
 WESTON_RDP_DEBUG_DESKTOP_SCALING_FACTOR=200
 ```
+
+## Install Powertoys and remap keyboard
+
+[Powertoys](https://learn.microsoft.com/en-us/windows/powertoys/)
