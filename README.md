@@ -6,13 +6,14 @@
 
 ## Windows LTSC
 
-In order to get the terminal, you need to install Microsoft Store. That can be done through admin powershell:
+1. In order to get the terminal, you need to install Microsoft Store. That can be done through admin powershell:
 
 ```powershell
 wsreset -i
 ```
 
-Irrelevant but may be useful: https://aka.ms/GamingRepairTool
+2. Restore GameBar: https://aka.ms/GamingRepairTool
+3. Autologon: https://learn.microsoft.com/en-us/sysinternals/downloads/autologon
 
 ## HiDPI fix
 
