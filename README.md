@@ -44,5 +44,11 @@ New-ItemProperty -Path "HKCU:\Software\Microsoft\Windows\CurrentVersion\Policies
 ## Fix Linux/Windows time shifts
 
 ```
+Set-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\TimeZoneInformation" -Name "RealTimeIsUniversal" -Value 1 -Type DWord
+```
+
+or 
+
+```
 reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation" /v RealTimeIsUniversal /t REG_DWORD /d 1 /f
 ```
